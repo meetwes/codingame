@@ -75,8 +75,6 @@ class Player {
         while(currNode != null) {
 
             ArrayList<Node> listOfGWs = new ArrayList<>();
-            //           if (!visitedNodes.containsKey(currNode.id)) {
-
             visitedNodes.put(currNode.id, currNode);
             Integer distance = currNode.link.distance + 1;
             int gwCountPerNode = 0;
